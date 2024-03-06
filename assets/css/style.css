@@ -14,11 +14,12 @@ a{
 }
 
 .mx-10{
-    margin-left: 10%;
+    margin-right: 5%;
 }
 .mx-20{
-  margin-left: 20%;
+  margin-left: 20% !important ;
 }
+
 .mx-10r{
     margin-right: 10%;
 }
@@ -27,6 +28,9 @@ a{
 }
 .pink-text{
   color: #DC3545;
+}
+.bg-pink{
+  background-color: #DD127B;
 }
 .blue-text{
  color: #0093DD;
@@ -58,7 +62,25 @@ p{
 .topheader .cr{
     margin-right: 10%;
 }
+.logo-hover{
+ 
+  transition: all 0.5s;
+}
+.logo-hover:hover{
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+.nav-item a:hover {
+  color: #DD127B !important;
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  overflow: hidden;
+  
 
+}
 /* Header Section End */
 
 /* swipper start */
@@ -129,6 +151,7 @@ p{
       height: 18px;
       background-color: #DD127B !important;
  }
+ 
 /* swipper end */
 
 /* Notes Section Start */
@@ -238,3 +261,60 @@ transition: 0.3s;
   transition: 0.3s;
 }
 /* Footer Section End */
+
+/* responsive start */
+@media screen and (max-width:767px) {
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+    background-color: #DD127B !important;
+}
+  
+.img-text .title
+    {
+     
+      left: 10%;
+      width: 150%;
+      font-size: 15px;
+      bottom: 100%;
+    }
+    button{
+      width: 120px;
+      height: 30px;
+      padding-top: 20px;
+      margin: 10px;
+      line-height: 5px;
+      border-radius: 30%;
+    }
+    .ml{
+      margin-left: -50% ;
+    }
+ }
+    
+
+
+@media screen and (max-width:414px)  { 
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+    background-color: #DD127B !important;
+    
+}
+  
+.img-text .title
+    {
+      position: absolute;
+      font-family:'Solway',serif;
+      left: 10%;
+      font-size: 10px;
+      bottom: 35%;
+    }
+    .ml{
+      margin-left: -50% ;
+    }
+ }
+
+
+/* responsive end */

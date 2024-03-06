@@ -18,170 +18,147 @@
 
 <body>
   <!-- Header Section Start -->
-  <section class="topheader">
+  <section class="container-fluid   topheader">
     <div class=" d-flex justify-content-between align-content-center ">
-      <div class="cl mt-1 ">
-        <a href="" class="text-white"> <i class="fa-solid fa-phone text-white"></i> +91-9534400041</a>
-        <span class="text-white">|</span>
-        <a href="" class="text-white"> <i class="fa-solid fa-phone text-white"></i> +91-9534400041</a>
+      <div class="cl d-flex  mt-1 ">
+        <a href="" class="text-white d-none d-lg-block "> <i class="fa-solid fa-phone text-white"></i>
+          +91-9534400041</a>
+        <a href="" class="d-sm-block d-lg-none "><i class="fa-solid fa-phone text-white"></i></a>
+        <span class="text-white"> &nbsp; | &nbsp;</span>
+        <a href="" class="text-white  d-none d-lg-block"> <i class="fa-solid fa-phone text-white"></i>
+          +91-9534400041</a>
+        <a href="" class="d-sm-block d-lg-none "><i class="fa-solid fa-phone text-white"></i></a>
+
       </div>
-      <div class="cr mt-1">
-        <a href="" class="text-white"> <i class="fa-brands fa-whatsapp text-white "></i></i> +91-9534400041</a>
-        <span class="text-white">|</span>
-        <a href="" class="text-white"> <i class="fa-solid fa-envelope text-white"></i> ashpatil@gamil.com</a>
+      <div class="cr d-flex  mt-1">
+        <a href="" class="text-white d-none d-lg-block "> <i class="fa-brands fa-whatsapp text-white "></i>
+          +91-9534400041</a>
+        <a href="" class="d-sm-block  d-lg-none "><i class="fa-brands fa-whatsapp text-white "></i></a>
+        <span class="text-white"> &nbsp;|&nbsp; </span>
+        <a href="" class="text-white d-none d-lg-block "> <i class="fa-solid fa-envelope text-white"></i>
+          ashpatil@gamil.com</a>
+        <a href="" class="d-sm-block  d-lg-none"><i class="fa-solid fa-envelope text-white"></i></a>
 
       </div>
     </div>
   </section>
 
-  <section class="lowheader">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white py-2">
+  <section class="lowheader sticky-lg-top ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <img src="./assets/img/bcsalogo.png" alt="" class="img-fluid mx-10 " width="300px">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand " href="/"> <img src="/assets/img/bcsalogo.png"
+            class="img-fluid  logo-hover d-none d-sm-inline-block  " width="270px" alt=""> </a>
+        <a class="navbar-brand ml " href="/"> <img src="/assets/img/logo.jpg" class="img-fluid  d-sm-none " width="60px"
+            alt=""> </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <a class="nav-link active fs-6 " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./About us.html">About BCSA</a></li>
+                <li><a class="dropdown-item" href="./Director Message.html">Director Message</a></li>
+                <li><a class="dropdown-item" target="_blank" href="./assets/pdf/Company_Certificate.pdf">Company
+                    Certificate</a></li>
+                <li><a class="dropdown-item" target="_blank" href="./assets/pdf/Trade_Mark_Certificate.pdf">Trade Mark
+                  </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Student Zone
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./Search Registration.html">Search Registration No</a></li>
+                <li><a class="dropdown-item" href="./Certificate Verification.html">Certificate Varification</a></li>
+                <li><a class="dropdown-item" href="./Marksheet Verification.html">Marksheet Varification</a></li>
+                <li><a class="dropdown-item" href="#class-enquiry">Course Enquiry </a></li>
+                <li><a class="dropdown-item" href="./Student Registration.html">Student Registration</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cources
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./About us.html">Long Tearm Course</a></li>
+                <li><a class="dropdown-item" href="#">Short Time Course</a></li>
 
-        <form class="d-flex mx-10r fs-6 fw-semibold " role="search">
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown  ">
-                <a class="nav-link text-dark me-2 me-2 " href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Home
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link text-dark me-2 " href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  About Us
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link text-dark me-2 " href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Student Zone
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link text-dark me-2 " href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Cources
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link text-dark me-2 " href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Franchises
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link text-dark me-2 " href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Projects
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link text-dark me-2 " href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Gallery
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Franchises
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./About us.html">Norms & Regulations</a></li>
+                <li><a class="dropdown-item" href="./assets/pdf/Final FRANCHAISE FILE FORMAT.pdf">Download Prosposal</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Franchises Enquiry</a></li>
+                <li><a class="dropdown-item" href="#">Apply For Franchises </a></li>
+                <li><a class="dropdown-item" href="#">Authorized Study Centers </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark  fs-6" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Gallery
+              </a>
+            </li>
 
-            </ul>
-        </form>
-      </div>
+          </ul>
+
+        </div>
       </div>
     </nav>
   </section>
   <!-- Header Section End -->
 
   <!--Swipper Start  -->
-  <div class="swiper mySwiper">
+  <div class=" swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="./assets/img/slider1.jpg" alt="">
         <div class="img-text pink text-start">
-          <h5 class="fw-bold ">One click access toward the courses.</h5>
-          <h1 class="fw-bolder">For Your Bright Future</h1>
+          <h5 class="fw-bold title">One click access toward the courses.</h5>
+          <h1 class="fw-bolder title">For Your Bright Future</h1>
           <button class="blue btn rounded-pill  border-0 text-white">Inqury Now</button>
         </div>
       </div>
       <div class="swiper-slide"><img src="./assets/img/slider2.jpg" alt="">
         <div class="img-text pink text-start">
-          <h5 class="fw-bold ">One click access toward the courses.</h5>
-          <h1 class="fw-bolder">For Your Bright Future</h1>
+          <h5 class="fw-bold  title">One click access toward the courses.</h5>
+          <h1 class="fw-bolder title">For Your Bright Future</h1>
           <button class="blue btn rounded-pill rounded-5 border-0 text-white">Inqury Now</button>
         </div>
       </div>
       <div class="swiper-slide"><img src="./assets/img/slider7.jpg" alt="">
         <div class="img-text pink text-start">
-          <h5 class="fw-bold ">One click access toward the courses.</h5>
-          <h1 class="fw-bolder">For Your Bright Future</h1>
+          <h5 class="fw-bold title ">One click access toward the courses.</h5>
+          <h1 class="fw-bolder title">For Your Bright Future</h1>
           <button class=" btn rounded-pill rounded-5 border-0 text-white">Inqury Now</button>
         </div>
       </div>
 
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-next d-none d-sm-inline-block   "></div>
+    <div class="swiper-button-prev  d-none d-sm-inline-block "></div>
+    <div class="swiper-pagination  "></div>
+  </div>
+
   </div>
 
   <!--Swipper End  -->
@@ -240,162 +217,168 @@
   <!-- Para Section End -->
 
   <!--Notes Section Start-->
-  <section class="notes " data-aos="zoom-in" data-aos-duration="1200">
-    <div class="container py-5">
-      <h3 class="text-center pink fw-bold">OUR TOP RUNNING COURSES</h3>
-      <div class="row   mt-sm-0  ">
+ 
+    <section class="notes "  data-aos="zoom-in" data-aos-duration="1200">
+      
+      <div class="container py-5">
+        <h3 class="text-center pink fw-bold">OUR TOP RUNNING COURSES</h3>
+        <div class="row   mt-sm-0  ">
 
-        <div class="col-md-4 text-center  pt-4">
-          <div class="bg-success p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/DCA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
-                </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/DCA_Course_Details.pdf" target="_blank">
-                  <h4>DSA</h4>
-                </a>
+          <div class="col-md-4 text-center  pt-4">
+            <div class="bg-success p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/DCA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/DCA_Course_Details.pdf" target="_blank">
+                    <h4>DSA</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center pt-4  ">
-          <div class="bg-info p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
-                </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank">
-                  <h4>Tally Prime</h4>
-                </a>
+          <div class="col-md-4 text-center pt-4  ">
+            <div class="bg-info p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank">
+                    <h4>Tally Prime</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center  pt-4 ">
-          <div class="bg-warning p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png"
-                    alt=""> </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank">
-                  <h4>DTP</h4>
-                </a>
+          <div class="col-md-4 text-center  pt-4 ">
+            <div class="bg-warning p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png"
+                      alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank">
+                    <h4>DTP</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center  pt-4">
-          <div class="bg-black p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png"
-                    alt=""> </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank">
-                  <h4>ADCHN</h4>
-                </a>
+          <div class="col-md-4 text-center  pt-4">
+            <div class="bg-black p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png"
+                      alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank">
+                    <h4>ADCHN</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center  pt-4">
-          <div class="bg-danger p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/CFA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
-                </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/CFA_Course_Details.pdf" target="_blank">
-                  <h4>CFA</h4>
-                </a>
+          <div class="col-md-4 text-center  pt-4">
+            <div class="bg-danger p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/CFA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/CFA_Course_Details.pdf" target="_blank">
+                    <h4>CFA</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center  pt-4">
-          <div class="bg-secondary p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/CFA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
-                </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/CFA_Course_Details.pdf" target="_blank">
-                  <h4>Web Design</h4>
-                </a>
+          <div class="col-md-4 text-center  pt-4">
+            <div class="bg-secondary p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/CFA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/CFA_Course_Details.pdf" target="_blank">
+                    <h4>Web Design</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center  pt-4">
-          <div class="bg-success p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png"
-                    alt=""> </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank">
-                  <h4>ADCA</h4>
-                </a>
+          <div class="col-md-4 text-center  pt-4">
+            <div class="bg-success p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank"><img src="./assets/img/Icon.png"
+                      alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/ADCA_Course_Details.pdf" target="_blank">
+                    <h4>ADCA</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center  pt-4">
-          <div class="bg-warning p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
-                </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank">
-                  <h4>Tally Prime Adv.</h4>
-                </a>
+          <div class="col-md-4 text-center  pt-4">
+            <div class="bg-warning p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank">
+                    <h4>Tally Prime Adv.</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center  pt-4">
-          <div class="bg-info p-4  rounded-2 mt-2 ">
-            <div class="mt-2">
-              <div>
-                <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
-                </a>
-              </div>
-              <div class="mt-4">
-                <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank">
-                  <h4>Web Development</h4>
-                </a>
+          <div class="col-md-4 text-center  pt-4">
+            <div class="bg-info p-4  rounded-2 mt-2 ">
+              <div class="mt-2">
+                <div>
+                  <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank"><img src="./assets/img/Icon.png" alt="">
+                  </a>
+                </div>
+                <div class="mt-4">
+                  <a href="./assets/pdf/TallyPrime_Basic.pdf" target="_blank">
+                    <h4>Web Development</h4>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
   <!--Notes Section End-->
 
   <!-- Help Section Start -->
-  <section class="help bg-white pb-5" data-aos="zoom-in-up" data-aos-duration="1200">
+  <section class="help bg-white pb-5" id="class-enquiry" data-aos="zoom-in-up" data-aos-duration="1200">
     <div class="container bg-white ">
       <div class="row ">
         <h4 class="blue-text text-center fw-semibold mt-5">Need Help?</h4>
@@ -493,7 +476,7 @@
 
             </div>
             <div class="col-md-12 mt-lg-2 mt-3 mb-3 text-center ">
-              <button type="button" class="btn btn-success col-sm-11 col-lg-5 p-3 fw-bold  ">Submit</button>
+              <button type="button" class="btn btn-success col-sm-11 col-lg-5 pb-3  fw-bold  ">Submit</button>
             </div>
           </form>
 
@@ -598,33 +581,18 @@
           </div>
         </div>
       </div>
-      
-    </footer>
-    <div class="container-fluid bg-gray footer-low  ">
-      <div class="row col-lg-12  ">
-          <p class="text-center mt-2  text-white ">
-            Copyright© भारतीय कंप्यूटर साक्षरता अभियान, काशीपुर (समस्तीपुर) 2022 | Developed by <span><a href="https://github.com/Iconicash" target="_blank" >Akshay Hyalij</a></span>
-          </p>
-      </div>
+
+  </footer>
+  <div class="container-fluid bg-gray footer-low  ">
+    <div class="row col-lg-12  ">
+      <p class="text-center mt-2  text-white ">
+        Copyright© भारतीय कंप्यूटर साक्षरता अभियान, काशीपुर (समस्तीपुर) 2022 | Developed by <span><a
+            href="https://github.com/Iconicash" target="_blank">Akshay Hyalij</a></span>
+      </p>
     </div>
-
-
-
-
-
-
+  </div>
 
   <!-- Footer Section End -->
-
-
-
-
-
-
-
-
-
-
 
   <script src="./assets/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
